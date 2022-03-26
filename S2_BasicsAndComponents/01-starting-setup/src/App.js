@@ -1,8 +1,10 @@
-import Card from "./components/Card";
-import Expenses from "./components/Expenses";
-import "./components/Expenses.css";
+import Expenses from "./components/Expenses/Expenses";
+import "./components/Expenses/Expenses.css";
+import React from "react";
+import NewExpense from "./components/NewExpense/NewExpense";
 
-function App() {
+// function App() {
+const App = () => {
   const expenses = [
     {
       id: "e1",
@@ -25,14 +27,19 @@ function App() {
     },
   ];
 
+  // return React.createElement(
+  //   "div",
+  //   {},
+  //   React.createElement("h2", {}, "Let's get started!"),
+  //   React.createElement(Expenses, { items: expenses })
+  // );
+
   return (
     <div>
-      <h2>Let's get started!</h2>
-      <Card>
-        <Expenses items={expenses} />
-      </Card>
+      <NewExpense />
+      <Expenses items={expenses} />
     </div>
   );
-}
+};
 
 export default App;
