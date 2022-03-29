@@ -5,28 +5,28 @@ import { useState } from "react";
 
 // function ExpenseItem(props) {
 const ExpenseItem = (props) => {
-    const [title, setTitle] = useState(props.title); // this is a React Hook, all hooks start with use
-    // useState returns a array of two elemetns
-    // first element is variable itself,
-    // second element is the updating function
+  const [title, setTitle] = useState(props.title); // this is a React Hook, all hooks start with use
+  // useState returns a array of two elemetns
+  // first element is variable itself,
+  // second element is the updating function
 
-    // const clickHandler = () => {
-    //     setTitle("Updated");
-    //     console.log("Clicked!!");
-    // };
+  // const clickHandler = () => {
+  //     setTitle("Updated");
+  //     console.log("Clicked!!");
+  // };
 
-    return (
-        <li>
-            <Card className="expense-item">
-                <ExpenseDate date={props.date} />
-                <div className="expense-item__description">
-                    <h2>{title}</h2>
-                    <div className="expense-item__price">${props.amount}</div>
-                </div>
-                {/* <button onClick={clickHandler}>Change Title!</button> */}
-            </Card>
-        </li>
-    );
+  return (
+    <li>
+      <Card className="expense-item">
+        <ExpenseDate date={props.date} />{" "}
+        <div className="expense-item__description">
+          <h2> {title} </h2>{" "}
+          <div className="expense-item__price"> $ {props.amount} </div>{" "}
+        </div>{" "}
+        {/* <button onClick={clickHandler}>Change Title!</button> */}{" "}
+      </Card>{" "}
+    </li>
+  );
 };
 
 export default ExpenseItem;
