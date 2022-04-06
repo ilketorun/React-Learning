@@ -1,4 +1,105 @@
+.DS_Store
+
 S2_BasicsAndComponents/01-starting-setup/node_modules
-S3_Styling/01-starting-project/node_modules
+
+S2_BasicsAndComponents/01-starting-setup/.pnp
+S2_BasicsAndComponents/01-starting-setup/.pnp.js
+
+# testing
+S2_BasicsAndComponents/01-starting-setup/coverage
+
+# production
+S2_BasicsAndComponents/01-starting-setup/build
+
+# misc
+S2_BasicsAndComponents/01-starting-setup/.DS_Store
+S2_BasicsAndComponents/01-starting-setup/.env.local
+S2_BasicsAndComponents/01-starting-setup/.env.development.local
+S2_BasicsAndComponents/01-starting-setup/.env.test.local
+S2_BasicsAndComponents/01-starting-setup/.env.production.local
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+
+#-------------------------------------------------------------
+
 S3_Styling/Styling_Project/node_modules
+
+S3_Styling/Styling_Project/.pnp
+S3_Styling/Styling_Project/.pnp.js
+
+# testing
+S3_Styling/Styling_Project/coverage
+
+# production
+S3_Styling/Styling_Project/build
+
+# misc
+S3_Styling/Styling_Project/.DS_Store
+S3_Styling/Styling_Project/.env.local
+S3_Styling/Styling_Project/.env.development.local
+S3_Styling/Styling_Project/.env.test.local
+S3_Styling/Styling_Project/.env.production.local
+
+#---------------------------------------------------------------------------
 S4_SideEffects_Reducers_ContextAPI/new_project/node_modules
+
+S4_SideEffects_Reducers_ContextAPI/new_project/.pnp
+S4_SideEffects_Reducers_ContextAPI/new_project/.pnp.js
+
+# testing
+S4_SideEffects_Reducers_ContextAPI/new_project/coverage
+
+# production
+S4_SideEffects_Reducers_ContextAPI/new_project/build
+
+# misc
+S4_SideEffects_Reducers_ContextAPI/new_project/.DS_Store
+S4_SideEffects_Reducers_ContextAPI/new_project/.env.local
+S4_SideEffects_Reducers_ContextAPI/new_project/.env.development.local
+S4_SideEffects_Reducers_ContextAPI/new_project/.env.test.local
+S4_SideEffects_Reducers_ContextAPI/new_project/.env.production.local
+
+
+#------------------------------------------------------------------
+S5\ React\ Optimization\ Techniques/node_modules
+
+S5\ React\ Optimization\ Techniques/.pnp
+S5\ React\ Optimization\ Techniques/.pnp.js
+
+# testing
+S5\ React\ Optimization\ Techniques/coverage
+
+# production
+S5\ React\ Optimization\ Techniques/build
+
+# misc
+S5\ React\ Optimization\ Techniques/.DS_Store
+S5\ React\ Optimization\ Techniques/.env.local
+S5\ React\ Optimization\ Techniques/.env.development.local
+S5\ React\ Optimization\ Techniques/.env.test.local
+S5\ React\ Optimization\ Techniques/.env.production.local
+
+# /.pnp
+# .pnp.js
+
+# # testing
+# /coverage
+
+# # production
+# /build
+
+# # misc
+# .DS_Store
+# .env.local
+# .env.development.local
+# .env.test.local
+# .env.production.local
+
+# npm-debug.log*
+# yarn-debug.log*
+# yarn-error.log*
+
+
