@@ -51,9 +51,8 @@ function printThis(value: any): void {
 //but we know they should be same type.
 
 function insertAtBeginning<T>(array: T [], value: T) {
-
    const newArray = [value, ...array];
-
    return newArray;
-
 }
+
+const updatedArray = insertAtBeginning([1,2,3],5)
