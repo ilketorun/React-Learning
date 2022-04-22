@@ -1,6 +1,7 @@
 import logo from "./logo.svg";
 import "./App.css";
 import Greeting from "./components/Greetings";
+import Async from "./components/Async";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
         </a>
       </header>
       <Greeting />
+      <Async />
     </div>
   );
 }
