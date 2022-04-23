@@ -1,10 +1,10 @@
 class Todo {
-  id: number;
+  id: string;
   text: string;
 
-  constructor(todoText: string, todoId: number) {
+  constructor(todoText: string) {
     this.text = todoText;
-    this.id = todoId;
+    this.id = Math.random().toString();
   }
 }
 
